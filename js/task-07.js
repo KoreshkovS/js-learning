@@ -9,7 +9,5 @@ const text = document.querySelector('#text');
 control.addEventListener('input', checkLenght);
 
 function checkLenght() {
-text.style.fontSize = control.value + 'px';
+  text.style.fontSize = control.value;
 }
-
-
